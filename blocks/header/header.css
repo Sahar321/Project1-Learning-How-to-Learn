@@ -5,7 +5,6 @@
 * Browsers: last 4 version
 */
 
-
 .header {
   height: 100vh;
   min-height: 600px;
@@ -26,8 +25,8 @@
   font-size: 102px;
   font-weight: bold;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
   z-index: 2;
   margin-left: 64px;
 }
@@ -47,6 +46,11 @@
 .header__link {
   text-decoration: none;
   color: #2f80ed;
+  transition: opacity 0.5s ease;
+}
+
+.header__link:hover {
+  opacity: 0.5;
 }
 .header__main-illustration {
   margin: 0;
@@ -68,6 +72,16 @@
   position: absolute;
   right: 0;
   z-index: 1;
+
+  transform: rotate(-15deg);
+  -webkit-animation-name: rotation;
+  animation-name: rotation;
+  -webkit-animation-duration: 20s;
+  animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 
 .logo_place_header {

@@ -46,6 +46,11 @@
   /*Stretching prevention,
    so that just clicking on the text will take you to the purchase page,
   and not all the space that Flexbox takes up */
+  transition: opacity 0.5s ease;
+}
+
+.khan__buy-link:hover {
+  opacity: 0.5;
 }
 
 .khan__author {

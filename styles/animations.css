@@ -1,14 +1,4 @@
-.animation_rotate_infinite {
-  transform: rotate(-15deg);
-  -webkit-animation-name: rotation;
-          animation-name: rotation;
-  -webkit-animation-duration: 20s;
-          animation-duration: 20s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-}
+
 
 @-webkit-keyframes rotation {
   from {

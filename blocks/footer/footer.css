@@ -83,6 +83,10 @@
   line-height: 30px;
   font-size: 18px;
   color: white;
+  transition: opacity 0.5s ease;
+}
+.footer__column-link:hover {
+  opacity: 0.5;
 }
 .footer__columns {
   color: white;
