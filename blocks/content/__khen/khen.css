@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 .khan {
   background-color: #f2f2f2;
   padding-top: 105px;
@@ -14,6 +21,8 @@
   padding: 0;
 }
 .khan__book-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 68px;
 }
@@ -29,40 +38,43 @@
   text-decoration: none;
   color: #2f80ed;
 
+  -ms-flex-item-align: start;
+
+  -ms-grid-row-align: start;
+
   align-self: start;
   /*Stretching prevention,
    so that just clicking on the text will take you to the purchase page,
   and not all the space that Flexbox takes up */
 }
 
-
 .khan__author {
-    line-height: 42px;
-    font-size: 30px;
-    font-weight: normal;
-    padding: 0;
-    margin: 0;
-  }
-  .khan__title {
-    line-height: 1.15;
-    font-size: 60px;
-    font-weight: bold;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .khan__quote {
-    line-height: 34px;
-    font-size: 24px;
-    font-weight: normal;
-    padding: 0;
-    margin: 50px 0 0;
-    width: 790px;
-  }
-  .khan__quote-author {
-    line-height: 1.15;
-    font-size: 24px;
-    font-weight: bold;
-    margin: 36px 0 0;
-    padding: 0;
-  }
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+.khan__title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+.khan__quote {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  padding: 0;
+  margin: 50px 0 0;
+  width: 790px;
+}
+.khan__quote-author {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 36px 0 0;
+  padding: 0;
+}
