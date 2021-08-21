@@ -2,6 +2,7 @@
 @import url(__two-columns/two-columns.css);
 @import url(__techniques/techniques.css);
 @import url(__table/table.css);
+@import url(__table/_theme/table_theme_dark.css);
 @import url(__cards/cards.css);
 @import url(__video/video.css);
 @import url(__oakley/oakley.css);
