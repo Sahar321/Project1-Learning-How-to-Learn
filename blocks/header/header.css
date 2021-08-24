@@ -1,0 +1,18 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
