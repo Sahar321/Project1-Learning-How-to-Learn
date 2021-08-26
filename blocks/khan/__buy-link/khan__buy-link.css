@@ -1,0 +1,20 @@
+.khan__buy-link {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #2f80ed;
+
+  -ms-flex-item-align: start;
+
+  -ms-grid-row-align: start;
+
+  align-self: start;
+  /*Stretching prevention,
+     so that just clicking on the text will take you to the purchase page,
+    and not all the space that Flexbox takes up */
+  transition: opacity 0.5s ease;
+}
+.khan__buy-link:hover {
+  opacity: 0.5;
+}

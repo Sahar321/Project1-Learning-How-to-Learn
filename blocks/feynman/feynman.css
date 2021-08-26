@@ -1,0 +1,12 @@
+.feynman {
+  margin: 0;
+  padding: 0;
+  /* Reset deafult styles*/
+  background-image: url(/res/images/feynman/feynman.png);
+  min-height: 790px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  position: relative;
+  background-size: 867px 637px;
+  background-color: #f2f2f2;
+}
