@@ -1,7 +1,7 @@
 @import url(../styles/normalize.css);
 
 /* main style */
-@import url(blocks/page/page.css);
+@import url(../blocks/page/page.css);
 
 /*logo*/
 @import url(../blocks/logo/_place/logo_place_footer.css);
